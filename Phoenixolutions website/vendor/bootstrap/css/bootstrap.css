@@ -64,6 +64,10 @@
   img {
     page-break-inside: avoid;
   }
+
+  b8 {
+       position: absolute; 
+    }
   p,
   h2,
   h3 {
@@ -110,6 +114,14 @@ html {
 
 @-ms-viewport {
   width: device-width;
+}
+
+footer_custom{
+    position:absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    
 }
 
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
